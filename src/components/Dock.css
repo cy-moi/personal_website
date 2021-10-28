@@ -1,8 +1,8 @@
 .dockDiv {
 	padding-left: 5%;
+	padding-right: 5%;
 	display: flex;
 	flex-direction: column;
-	width: 15%;
 	height: 100%;
 }
 
