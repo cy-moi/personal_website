@@ -16,7 +16,7 @@ export default class Home extends React.PureComponent {
 					<div className="pageRoot">
 					<Dock />
 					<div className="cvDiv">
-						<Image className="coverDiv" src={process.env.PUBLIC_URL+"/cover.PNG"}></Image>
+						<Image className="coverDiv" src={process.env.PUBLIC_URL+"/cover.png"}></Image>
 					</div>
 
 					</div>

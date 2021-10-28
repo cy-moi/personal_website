@@ -11,7 +11,7 @@ class Header extends React.PureComponent {
 	render() {
 		return(
 			<div className="headerDiv">
-				<NavLink variant="secondary" onClick={event =>  window.location.href='/'}>
+				<NavLink variant="secondary" onClick={event =>  window.location.href=process.env.PUBLIC_URL+'/'}>
           {this.props.title}
         </NavLink>
 			</div>

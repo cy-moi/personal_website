@@ -7,14 +7,14 @@ import Home from './pages/Home.js';
 import Bio from './pages/Bio.js'
 const App = props => {
   return (
-      <Router>
-          <Route path = "/" exact>
+      <Router basename={process.env.PUBLIC_URL}>
+          <Route path = "/" basename={process.env.PUBLIC_URL} exact>
               <Home />
           </Route>
-          <Route path = "/zcy" exact>
+          <Route path = {process.env.PUBLIC_URL+"/zcy"} exact>
               <Home />
           </Route>
-          <Route path = "/bio">
+          <Route path = {process.env.PUBLIC_URL+"/bio"}>
               <Bio />
           </Route>
       </Router>
