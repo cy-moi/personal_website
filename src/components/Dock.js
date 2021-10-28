@@ -14,7 +14,7 @@ class Dock extends React.PureComponent {
 					<NavLink href={process.env.PUBLIC_URL+"/"} className="button">ARTS</NavLink>
 				</div>
 				<div className="buttonDiv">
-					<NavLink href={process.env.PUBLIC_URL+"/bio"} className="button">CV</NavLink>
+					<NavLink href={process.env.PUBLIC_URL+"/#/bio/"} className="button">CV</NavLink>
 				</div>
 			</div>
 		)

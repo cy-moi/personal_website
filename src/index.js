@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 // import Button from '@material-ui/core/Button';
 //Importing routes
 import Home from './pages/Home.js';
@@ -11,10 +11,10 @@ const App = props => {
           <Route path = "/" basename={process.env.PUBLIC_URL} exact>
               <Home />
           </Route>
-          <Route path = {process.env.PUBLIC_URL+"/zcy"} exact>
+          <Route path={process.env.PUBLIC_URL+"/zcy"} exact>
               <Home />
           </Route>
-          <Route path = {process.env.PUBLIC_URL+"/bio"}>
+          <Route path="/bio/">
               <Bio />
           </Route>
       </Router>
