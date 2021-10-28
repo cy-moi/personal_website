@@ -1,0 +1,13 @@
+.pageRoot {
+	display: flex;
+	flex-direction: row;
+}
+
+.cvDiv{
+	width: 100%;
+}
+
+.coverDiv{
+	width: 60%;
+	padding-left: 25%;
+}
