@@ -28,7 +28,6 @@ export default class Home extends React.PureComponent {
 				this.setState({
 					markdown: text
 				})
-				console.log(text)
 			})
 	}
 	render(){
