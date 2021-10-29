@@ -1,24 +1,26 @@
 import React from 'react'
+import { render } from 'react-dom'
 // import preset from '@rebass/preset'
-import { ThemeProvider } from 'theme-ui'
+import { ThemeProvider, Image } from 'theme-ui'
 import Header from '../components/Header'
 import Dock from '../components/Dock'
 import './Home.css'
 import preset from '../styles/theme'
 import ReactMarkdown from 'react-markdown'
-import cvMarkdown from '../CV.md'
+import { resourceMap } from './resources'
 
-export default class Bio extends React.PureComponent {
+export default class Project extends React.PureComponent {
 	constructor(props) {
 		super(props)
+		this.props = props
 		this.state = {
 			markdown:''
 		}
 	}
 	componentDidMount() {
-		// const readmePath = require("../CV.md");
-
-		fetch(cvMarkdown)
+		console.log(this.props, ">>>>")
+		const markdownPath = `${process.env.PUBLIC_URL}/workFiles/${resourceMap[this.props.match.params.projectId]["readme"]}`
+		fetch(markdownPath)
 			.then(response => {
 				return response.text()
 			})
@@ -36,6 +38,7 @@ export default class Bio extends React.PureComponent {
 					<div className="pageRoot">
 						<Dock />
 						<div className='cvDiv'>
+							<Image src={`${process.env.PUBLIC_URL}/workFiles/${resourceMap[this.props.match.params.projectId]["cover"]}`} />
 							<ReactMarkdown >{markdown}</ReactMarkdown>
 						</div>
 					</div>

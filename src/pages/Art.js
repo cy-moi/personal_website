@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Dock from '../components/Dock'
 import './Home.css'
 import preset from '../styles/theme'
-import { Image } from 'theme-ui'
+import { Image, Text } from 'theme-ui'
 
 export default class Home extends React.PureComponent {
 	render(){
@@ -15,7 +15,7 @@ export default class Home extends React.PureComponent {
 					<div className="pageRoot">
 					<Dock />
 					<div className="cvDiv">
-						<Image className="coverDiv" src={process.env.PUBLIC_URL+"/cover.png"}></Image>
+						<Text>Cet oiseau fabuleux dont on parle dans les légendes indiennes et qui parait-il vient au monde sans pattes de sorte qu’il ne se pose jamais.</Text>
 					</div>
 					</div>
 			</ThemeProvider>
