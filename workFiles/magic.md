@@ -1,0 +1,5 @@
+# Magic Hand-gloves
+
+This is one of the demos I made when I was exploring tensorflow.js. I almost borrowed the hand detection part directly from TFJS' official demo, which has already achieved an impressive real-time effect of 3D hand skeleton alignment. Adapting to lower configured PC users, I tried to remove the skeleton part and only used the detection box to make special effects. It seemed nice. But my colleague (the same one I mentioned in the Coding Playground project) suggested that it could be better if I combined the skeleton data with the final effects. Therefore, the final demo was made with the skeleton detection, but I moved all the calculations into WebWorker to guarantee performance.
+
+I grew a more profound interest in tensorflow.js from working on this demo, which only cost me about three days. I was overwhelmed by the usability and capability of the library. I have also looked into the codes, WebGL, and WebAssembly. I have talked with others from different departments about how to compile C++ into WebAssembly and learned about their solutions of utilizing client-end resources to improve front-end graphics performance.
