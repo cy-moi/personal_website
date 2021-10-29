@@ -1,4 +1,4 @@
-import { Card, Image, NavLink, ThemeProvider, Grid } from 'theme-ui'
+import { Card, Image, NavLink, ThemeProvider, Grid, Text } from 'theme-ui'
 import React from 'react'
 import Header from '../components/Header'
 import Dock from '../components/Dock'
@@ -7,6 +7,7 @@ import preset from '../styles/theme'
 import { resourceMap } from './resources'
 
 export default class Work extends React.PureComponent {
+
 	render() {
 		return (
 			<ThemeProvider theme={preset}>
@@ -20,8 +21,11 @@ export default class Work extends React.PureComponent {
 								sx={{
 									maxWidth: 256,
 								}}>
-								<Image src={process.env.PUBLIC_URL+"/workFiles/playground.jpg"} />
-								<NavLink href={`#/project/${ind}/`}>{prj.title}</NavLink>
+									<div className="coverThumbnail">
+										<Image className="thumbImage" src={process.env.PUBLIC_URL+prj.cover} />
+									</div>
+									<NavLink href={`#/project/${ind}/`}>{prj.title}</NavLink>
+									<Text>{}</Text>
 							</Card>
 							)
 						})}

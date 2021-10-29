@@ -18,8 +18,7 @@ export default class Project extends React.PureComponent {
 		}
 	}
 	componentDidMount() {
-		console.log(this.props, ">>>>")
-		const markdownPath = `${process.env.PUBLIC_URL}/workFiles/${resourceMap[this.props.match.params.projectId]["readme"]}`
+		const markdownPath = `${process.env.PUBLIC_URL}${resourceMap[this.props.match.params.projectId]["readme"]}`
 		fetch(markdownPath)
 			.then(response => {
 				return response.text()
@@ -38,7 +37,7 @@ export default class Project extends React.PureComponent {
 					<div className="pageRoot">
 						<Dock />
 						<div className='cvDiv'>
-							<Image src={`${process.env.PUBLIC_URL}/workFiles/${resourceMap[this.props.match.params.projectId]["cover"]}`} />
+							<Image className= "coverImage" src={`${process.env.PUBLIC_URL}${resourceMap[this.props.match.params.projectId]["cover"]}`} />
 							<ReactMarkdown >{markdown}</ReactMarkdown>
 						</div>
 					</div>

@@ -14,3 +14,21 @@
 	width: 50%;
 	padding-left: 30%;
 }
+
+.coverImage {
+	width: 50%;
+	padding-bottom: 3%;
+	align-self: center;
+}
+
+.coverThumbnail{
+	height: 70%;
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+	background-color: aliceblue;
+}
+
+.thumbImage{
+	height: 100%;
+}
