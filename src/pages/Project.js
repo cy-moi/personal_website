@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 // import preset from '@rebass/preset'
-import { ThemeProvider, Image } from 'theme-ui'
+import { ThemeProvider, Image, Embed } from 'theme-ui'
 import Header from '../components/Header'
 import Dock from '../components/Dock'
 import './Home.css'
@@ -36,9 +36,14 @@ export default class Project extends React.PureComponent {
 					<Header title="ZCY"/>
 					<div className="pageRoot">
 						<Dock />
-						<div className='cvDiv'>
+						<div className='prjDiv'>
 							<Image className= "coverImage" src={`${process.env.PUBLIC_URL}${resourceMap[this.props.match.params.projectId]["cover"]}`} />
 							<ReactMarkdown >{markdown}</ReactMarkdown>
+							{
+								resourceMap[this.props.match.params.projectId]["video"]
+								? <Embed className= "demo" src={`${process.env.PUBLIC_URL}${resourceMap[this.props.match.params.projectId]["video"]}`} />
+								: null
+							}
 						</div>
 					</div>
 			</ThemeProvider>

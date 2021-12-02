@@ -1,0 +1,3 @@
+# Virtual China
+
+This is a project made with Processing and OpenCV. It allows users to make pottery virtually by moving hands in front of the camera which captures the motion. However, working with Processing was not the best solution to do hand skeleton tracking. I did this project before I explored tensorflow.js and to satisfy a client's needs for their interactive exhibition in a hurry. It was delivered on time, even though, unfortunately, I was not at liberty to disclose the full version. At first, I adapted a retro-cyber style and still like it even now, though this style is not appreciated and changed at the last minute. But, fortunately, now I have tensorflow.js and Three.js which can help me build a much better one than this Processing implementation.

@@ -87,7 +87,7 @@ export const preset = {
   },
   cards: {
     primary: {
-      padding: 2,
+      padding: 0,
       borderRadius: 4,
       boxShadow: '0 0 8px rgba(0, 0, 0, 0.125)',
     },

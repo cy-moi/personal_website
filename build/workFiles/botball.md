@@ -1,0 +1,6 @@
+# Virtual Football Field
+
+A Robo-cup-like 2D soccer play simulation with Python-implemented physics engine and H5 animation streaming. The outer loop of the field is a concave shape that resembles a cyber playground in sci-fi style rather than the common rectangular shaped field of soccer. UIX professionals designed the outlook.
+
+
+This is a project that became into a coding combat competition from a python prototype. The original design was to involve students in graphics and shape coding with a boilerplate project. I first used OpenCV-python and about 200 lines of code presenting a round robot kicking balls and hitting walls. This demo was then escalated to a product, and I was asked to support two teams of round bots to play soccer as the Robo-cup 2D simulator. And after I developed the core functions, this project involved three more colleagues in supporting from backend and frontend, in that the OpenCV appearance got changed, and we finally extended the engine to an online game where players could submit codes, play with each other, and join the leaderboard.
