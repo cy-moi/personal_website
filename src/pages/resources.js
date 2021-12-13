@@ -10,7 +10,7 @@ export const resourceMap = [
 		"title": "Magic Hand Fire",
 		"cover": "/workFiles/magic.png",
 		"readme": "/workFiles/magic.md",
-		"video": "/workFiles/demoMagic.m4v",
+		"video": "/workFiles/demoMagic.mp4",
 		"description":"This is one of the demos I made when I was exploring tensorflow.js."
 	},
 	{

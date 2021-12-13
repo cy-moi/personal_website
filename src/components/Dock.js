@@ -11,10 +11,13 @@ class Dock extends React.PureComponent {
 					<NavLink href={process.env.PUBLIC_URL+"/#/work"} className="button">WORK</NavLink>
 				</div>
 				<div className="buttonDiv">
-					<NavLink href={process.env.PUBLIC_URL+"/#/arts"} className="button">ARTS</NavLink>
+					<NavLink href={process.env.PUBLIC_URL+"/#/arts"} className="button">ART</NavLink>
 				</div>
 				<div className="buttonDiv">
 					<NavLink href={process.env.PUBLIC_URL+"/#/bio/"} className="button">CV</NavLink>
+				</div>
+				<div className="buttonDiv">
+					<NavLink href={process.env.PUBLIC_URL+"/#/blog"} className="button">BLOG</NavLink>
 				</div>
 			</div>
 		)

@@ -17,18 +17,17 @@ export default class Work extends React.PureComponent {
 					<Grid className='cardDiv' width={[300]}>
 						{resourceMap.map((prj, ind) => {
 							return (
-							<Card
-								sx={{
-									maxWidth: 500
-								}}>
-									<div className="coverThumbnail">
-										<Image className="thumbImage" src={process.env.PUBLIC_URL+prj.cover} />
-									</div>
-									<div className="cardText">
-										<NavLink href={`#/project/${ind}/`}>{prj.title}</NavLink>
-										<Text>{prj.description}</Text>
-									</div>
-							</Card>
+							// <Card
+								// sx={{
+								// 	maxWidth: 500
+								// }}>
+									// <div className="coverThumbnail">
+									// 	<Image className="thumbImage" src={process.env.PUBLIC_URL+prj.cover} />
+									// </div>
+								<div className="cardText">
+									<NavLink href={`#/project/${ind}/`}>{prj.title}</NavLink>
+									<Text>{prj.description}</Text>
+								</div>
 							)
 						})}
 					</Grid>
