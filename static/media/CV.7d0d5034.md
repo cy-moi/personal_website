@@ -1,8 +1,8 @@
-# CV
+# Congyao Z
 
 # ☎️ Contact information
 
-📧  congyao119@gmail.com
+📧  zerocommandyarn@gmail.com
 
 **👩🏻‍💻**  [cy-moi.github.io/personal_website](http://cy-moi.github.io/personal_website)
 
