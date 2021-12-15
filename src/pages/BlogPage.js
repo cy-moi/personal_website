@@ -6,6 +6,7 @@ import Dock from '../components/Dock'
 import './Home.css'
 import preset from '../styles/theme'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { blogMap } from './entries'
 
 export default class BlogPage extends React.PureComponent {
@@ -36,7 +37,7 @@ export default class BlogPage extends React.PureComponent {
 					<div className="pageRoot">
 						<Dock />
 						<div className='blogDiv'>
-							<ReactMarkdown >{markdown}</ReactMarkdown>
+							<ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
 						</div>
 					</div>
 			</ThemeProvider>

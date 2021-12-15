@@ -1,4 +1,4 @@
-import { NavLink, ThemeProvider, Grid, Text } from 'theme-ui'
+import { NavLink, ThemeProvider, Grid, Text, Badge } from 'theme-ui'
 import React from 'react'
 import Header from '../components/Header'
 import Dock from '../components/Dock'
@@ -22,11 +22,11 @@ export default class Blog extends React.PureComponent {
 				<Header title="ZCY"/>
 				<div className="pageRoot">
 					<Dock />
-					<Grid className='cardDiv' width={[300]}>
+					<Grid className='cardDiv' columns={[1, null, 2]}>
 						{blogMap.map((prj, ind) => {
 							return (
 								<div className="cardText">
-									<NavLink href={`#/blogpage/${ind}/`}>{prj.title}</NavLink>
+									<NavLink href={`#/blogpage/${ind}/`}>{prj.title} <Badge>{prj.lang}</Badge></NavLink>
 									<Text>{prj.description}</Text>
 								</div>
 							)

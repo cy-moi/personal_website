@@ -1,1 +1,3 @@
-fsdfs
+Le magazine: The New Yorker
+
+The New Yorker est un magazine créé en 1925. Le contenu concerne le style de vie new-yorkais. Généralement, la couverture du magazine est dessin un dessin qui est trés unique et artisanale. Je suis particulièrement intéressé par les fictions et les critiques en le magazine. Donc beaucoup d'écrivains ont publié des courts fictions en The New Yorker, et puis ils deviennent célèbres après. De nombreux écrivains célèbres choisissent aussi le magazine pour publier leur travails, grâce à sa popularité.

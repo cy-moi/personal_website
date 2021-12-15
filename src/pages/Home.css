@@ -15,6 +15,10 @@
 	flex-direction: column;
 }
 
+.blogDiv{
+	width: 80%;
+}
+
 .cardDiv{
 	width: 80%;
 }
