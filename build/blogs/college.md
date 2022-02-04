@@ -1,7 +1,6 @@
-Today I retrieved something I wrote from my old evernote.
+Some piece of writing I retrieved from my abandoned evernotes account. LOL, I'm not that into AI algorithms though right now, but it looks like AI has mattered a big deal to me at some point in the past.
 
-
-I first picked up the idea of dedicating myself to artificial intelligence development from reading and watching sci-fi. Though born after the millennium, I grew up with old double feature films, which soon lured me into 30s Golden Age Hollywood. With enthusiasm for science and narratives, I loved to let my imagination express itself relentlessly and write my own stories, jumping from time to time in some 22nd century, integrating models and lines of codes into adventures, connecting dots, and making sense out of fantasies. One of my little stories even became a later research project, an AI referee with no blind spots for soccer.
+I first picked up the idea of dedicating myself to artificial intelligence development from reading and watching sci-fi. Though a millennium, I grew up with old double feature films, which soon lured me into 30s Golden Age Hollywood. With enthusiasm for science and narratives, I loved to let my imagination express itself relentlessly and write my own stories, jumping from time to time in some 22nd century, integrating models and lines of codes into adventures, connecting dots, and making sense out of fantasies.
 
 But scientific breakthroughs are not just thinking out of the box; I have to concentrate and look into the box first.
 

@@ -1,8 +1,12 @@
-# CV
+# Congyao Z
+
+Undergraduate Mentor (@GT): [Jarek Rossignac](https://faculty.cc.gatech.edu/~jarek/) (who has inspired me so much in so many ways!)
+
+Professional Mentor (@SenseTime): Cheng Li & Ronghui Bian
 
 # ☎️ Contact information
 
-📧  congyao119@gmail.com
+📧  zerocommandyarn@gmail.com
 
 **👩🏻‍💻**  [cy-moi.github.io/personal_website](http://cy-moi.github.io/personal_website)
 

@@ -14,6 +14,19 @@ export const resourceMap = [
 		"description":"This is one of the demos I made when I was exploring tensorflow.js."
 	},
 	{
+		"title": "Face Doodle",
+		"cover": "/workFiles/faceDraw.png",
+		"readme": "/workFiles/faceDraw.md",
+		"video": "/workFiles/faceDraw.mp4",
+		"description":"This one is inspired by one of the official mediapipe and tfjs demos."
+	},
+	{
+		"title": "Laser Eye",
+		"cover": "/workFiles/laser.png",
+		"readme": "/workFiles/laser.md",
+		"description":"I am so into memes, so I made this demo to have a pair of laser eyes just as the goose meme (maybe a dead meme now)."
+	},
+	{
 		"title": "Virtual Robot Soccer",
 		"cover": "/workFiles/botball.png",
 		"readme": "/workFiles/botball.md",
