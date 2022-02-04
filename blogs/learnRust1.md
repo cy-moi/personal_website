@@ -35,14 +35,14 @@ bevy_prototype_lyon = "0.4.0"
 这里面没有用到lib和bin，但我简单看了下，大概和C++的打包差不多：
 
 ```rust
-// The library target defines a "library" that 
-// can be used and linked by other libraries and executables. 
+// The library target defines a "library" that
+// can be used and linked by other libraries and executables.
 // Example of customizing the library in Cargo.toml.
 [lib]
 crate-type = ["cdylib"]
 bench = false
 
-// Binary targets are executable programs 
+// Binary targets are executable programs
 // that can be run after being compiled.
 
 [[bin]]
@@ -68,7 +68,7 @@ bevy_rapier2d = { git = "https://github.com/dimforge/bevy_rapier", tag = "v0.12.
 官网上的用法比npm更加别致一点，可选的东西还挺多，自由度挺大的，不过一眼看过去好晕还是算了，以后用到再说吧。。。
 
 ```jsx
-// Dependencies can be marked "optional", 
+// Dependencies can be marked "optional",
 // which means they will not be compiled by default.
 [dependencies]
 ravif = { version = "0.6.3", optional = true }
@@ -125,6 +125,6 @@ rpath = false
 
 编好的profile在`target`目录下面，比如release的就是在`target/release`.
 
-如果没有指明profile的话，`[cargo build](https://doc.rust-lang.org/cargo/commands/cargo-build.html)`, `[cargo rustc](https://doc.rust-lang.org/cargo/commands/cargo-rustc.html)`, `[cargo check](https://doc.rust-lang.org/cargo/commands/cargo-check.html)`, and `[cargo run](https://doc.rust-lang.org/cargo/commands/cargo-run.html)` 会默认运行`dev`，其余的`cargo test`对应`test`， `cargo bench`对应`bench`，`cargo install`对应`release`。
+如果没有指明profile的话，[cargo build](https://doc.rust-lang.org/cargo/commands/cargo-build.html), [cargo rustc](https://doc.rust-lang.org/cargo/commands/cargo-rustc.html), [cargo check](https://doc.rust-lang.org/cargo/commands/cargo-check.html), and [cargo run](https://doc.rust-lang.org/cargo/commands/cargo-run.html) 会默认运行`dev`，其余的`cargo test`对应`test`， `cargo bench`对应`bench`，`cargo install`对应`release`。
 
 总的来说我觉得cargo非常powerful，集makefile和npm包管理于一身的脚本，就是有点学习门槛，估计每次做都要看半天文档。。。
