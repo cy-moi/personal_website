@@ -1,5 +1,9 @@
 # Coding Playground in Browser
 
+
+[Play Demo Here (aka. Brave-Newland)](https://brave-newland.vercel.app/): only regular shapes are supported, custom SVGs and random shapes are on the way :)
+
+
 A coding playground supports users interact with any objects through simple javascript commands. We have equipped the playground engine with tensorflow.js and a physics engine in the browser to explore more possibilities. This engine has empowered some legacy education games on the corporate platform and developed the potentials of integrating GAN, CNN, etc., artificial intelligence algorithms into those games. One of the most expected is to use this engine to implement a combat system that allows users to teach their agents to learn from the world and compete with each other.
 
 
