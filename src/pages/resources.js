@@ -1,6 +1,6 @@
 export const resourceMap = [
 	{
-		"title": "Coding Playground",
+		"title": "Coding Playground (With Live Demo)",
 		"cover": "/workFiles/playground.jpg",
 		"readme": "/workFiles/playground.md",
 		"video": "/workFiles/demo_pg.mp4",

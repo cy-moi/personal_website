@@ -21,7 +21,6 @@ export default class Home extends React.PureComponent {
 								fontWeight: 'bold',
 							}}>
 								a Singleton👧 who enjoys her own time alone, coding, reading, writing, learning, drawing, crafting.
-								My favorite artists: Sylvia Plath & Jean-Luc Godard.
 							</Text>
 							<Text sx={{
 								fontSize: 4,
